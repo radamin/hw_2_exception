@@ -1,2 +1,9 @@
-package task01;public class NegativeNumberException {
+package task01;
+
+class NegativeNumberException extends Exception {
+
+    public NegativeNumberException(String message) {
+
+        super(message);
+    }
 }
